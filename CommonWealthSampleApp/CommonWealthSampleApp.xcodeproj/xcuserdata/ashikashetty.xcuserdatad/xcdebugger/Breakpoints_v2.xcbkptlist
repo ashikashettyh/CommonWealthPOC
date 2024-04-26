@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "82B7111D-2086-4DBF-9306-3F49A82FFB54"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E5FD1DDB-593F-4B6E-A9F2-564ACC6EB1AC"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CommonWealthSampleApp/TransactionsList.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "64"
+            endingLineNumber = "64"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C259D76A-5C02-407E-BC24-0C45CE7EC68B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CommonWealthSampleApp/TransactionsList.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "C259D76A-5C02-407E-BC24-0C45CE7EC68B - f4bf7c1255dc850b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 ((key: Foundation.Date, value: Swift.Array&lt;CommonWealthSampleApp.Transactions&gt;)) -&gt; SwiftUI.Text in closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.ForEach&lt;Swift.Array&lt;(key: Foundation.Date, value: Swift.Array&lt;CommonWealthSampleApp.Transactions&gt;)&gt;, Foundation.Date, SwiftUI.Text&gt;, SwiftUI.Text)&gt; in closure #1 () -&gt; SwiftUI.List&lt;Swift.Never, SwiftUI.TupleView&lt;(SwiftUI.ForEach&lt;Swift.Array&lt;(key: Foundation.Date, value: Swift.Array&lt;CommonWealthSampleApp.Transactions&gt;)&gt;, Foundation.Date, SwiftUI.Text&gt;, SwiftUI.Text)&gt;&gt; in CommonWealthSampleApp.TransactionsListView.body.getter : some"
+                  moduleName = "CommonWealthSampleApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ashikashetty/Desktop/CommonWealthSampleApp/CommonWealthSampleApp/TransactionsList.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "64">
+               </Location>
+               <Location
+                  uuid = "C259D76A-5C02-407E-BC24-0C45CE7EC68B - 63b3679e92194e50"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 ((key: Foundation.Date, value: Swift.Array&lt;CommonWealthSampleApp.Transactions&gt;)) -&gt; SwiftUI.Text in closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.ForEach&lt;Swift.Array&lt;(key: Foundation.Date, value: Swift.Array&lt;CommonWealthSampleApp.Transactions&gt;)&gt;, Foundation.Date, SwiftUI.Text&gt;, SwiftUI.Text)&gt; in CommonWealthSampleApp.TransactionsListView.body.getter : some"
+                  moduleName = "CommonWealthSampleApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ashikashetty/Desktop/CommonWealthSampleApp/CommonWealthSampleApp/TransactionsList.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "64">
+               </Location>
+               <Location
+                  uuid = "C259D76A-5C02-407E-BC24-0C45CE7EC68B - 4608514cf9ea263"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 ((key: Foundation.Date, value: Swift.Array&lt;CommonWealthSampleApp.Transactions&gt;)) -&gt; SwiftUI.Section&lt;&lt;&lt;opaque return type of SwiftUI.View.ignoresSafeArea(_: SwiftUI.SafeAreaRegions, edges: SwiftUI.Edge.Set) -&gt; some&gt;&gt;.0, SwiftUI.ForEach&lt;Swift.Array&lt;CommonWealthSampleApp.Transactions&gt;, Swift.String, SwiftUI._ConditionalContent&lt;SwiftUI.NavigationLink&lt;CommonWealthSampleApp.TransactionView, SwiftUI._ConditionalContent&lt;CommonWealthSampleApp.MapView, SwiftUI.Text&gt;&gt;, CommonWealthSampleApp.TransactionView&gt;&gt;, SwiftUI.EmptyView&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.Section&lt;SwiftUI.EmptyView, CommonWealthSampleApp.HeaderView, SwiftUI.EmptyView&gt;, SwiftUI.ForEach&lt;Swift.Array&lt;(key: Foundation.Date, value: Swift.Array&lt;CommonWealthSampleApp.Transactions&gt;)&gt;, Foundation.Date, SwiftUI.Section&lt;&lt;&lt;opaque return type of SwiftUI.View.ignoresSafeArea(_: SwiftUI.SafeAreaRegions, edges: SwiftUI.Edge.Set) -&gt; some&gt;&gt;.0, SwiftUI.ForEach&lt;Swift.Array&lt;CommonWealthSampleApp.Transactions&gt;, Swift.String, SwiftUI._ConditionalContent&lt;SwiftUI.NavigationLink&lt;CommonWealthSampleApp.TransactionView, SwiftUI._ConditionalContent&lt;CommonWealthSampleApp.MapView, SwiftUI.Text&gt;&gt;, CommonWealthSampleApp.TransactionView&gt;&gt;, SwiftUI.EmptyView&gt;&gt;)&gt; in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.navigationTitle(SwiftUI.LocalizedStringKey) -&gt; some&gt;&gt;.0 in CommonWealthSampleApp.TransactionsListView.body.getter : some"
+                  moduleName = "CommonWealthSampleApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ashikashetty/Desktop/CommonWealthSampleApp/CommonWealthSampleApp/TransactionsList.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "240">
+               </Location>
+               <Location
+                  uuid = "C259D76A-5C02-407E-BC24-0C45CE7EC68B - 172703bdf4e57942"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.ForEach&lt;Swift.Array&lt;CommonWealthSampleApp.Transactions&gt;, Swift.String, SwiftUI._ConditionalContent&lt;SwiftUI.NavigationLink&lt;CommonWealthSampleApp.TransactionView, SwiftUI._ConditionalContent&lt;CommonWealthSampleApp.MapView, SwiftUI.Text&gt;&gt;, CommonWealthSampleApp.TransactionView&gt;&gt; in closure #2 ((key: Foundation.Date, value: Swift.Array&lt;CommonWealthSampleApp.Transactions&gt;)) -&gt; SwiftUI.Section&lt;&lt;&lt;opaque return type of SwiftUI.View.ignoresSafeArea(_: SwiftUI.SafeAreaRegions, edges: SwiftUI.Edge.Set) -&gt; some&gt;&gt;.0, SwiftUI.ForEach&lt;Swift.Array&lt;CommonWealthSampleApp.Transactions&gt;, Swift.String, SwiftUI._ConditionalContent&lt;SwiftUI.NavigationLink&lt;CommonWealthSampleApp.TransactionView, SwiftUI._ConditionalContent&lt;CommonWealthSampleApp.MapView, SwiftUI.Text&gt;&gt;, CommonWealthSampleApp.TransactionView&gt;&gt;, SwiftUI.EmptyView&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.Section&lt;SwiftUI.EmptyView, CommonWealthSampleApp.HeaderView, SwiftUI.EmptyView&gt;, SwiftUI.ForEach&lt;Swift.Array&lt;(key: Foundation.Date, value: Swift.Array&lt;CommonWealthSampleApp.Transactions&gt;)&gt;, Foundation.Date, SwiftUI.Section&lt;&lt;&lt;opaque return type of SwiftUI.View.ignoresSafeArea(_: SwiftUI.SafeAreaRegions, edges: SwiftUI.Edge.Set) -&gt; some&gt;&gt;.0, SwiftUI.ForEach&lt;Swift.Array&lt;CommonWealthSampleApp.Transactions&gt;, Swift.String, SwiftUI._ConditionalContent&lt;SwiftUI.NavigationLink&lt;CommonWealthSampleApp.TransactionView, SwiftUI._ConditionalContent&lt;CommonWealthSampleApp.MapView, SwiftUI.Text&gt;&gt;, CommonWealthSampleApp.TransactionView&gt;&gt;, SwiftUI.EmptyView&gt;&gt;)&gt; in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.navigationTitle(SwiftUI.LocalizedStringKey) -&gt; some&gt;&gt;.0 in CommonWealthSampleApp.TransactionsListView.body.getter : some"
+                  moduleName = "CommonWealthSampleApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ashikashetty/Desktop/CommonWealthSampleApp/CommonWealthSampleApp/TransactionsList.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "208">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E4151E18-FBC0-4479-9B0F-51E9BA37726C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CommonWealthSampleApp/TransactionsViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "getAtmLocation(atmID:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "04BCDD45-DDC7-405A-8831-D7BDDF620C83"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CommonWealthSampleApp/TransactionsList.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
