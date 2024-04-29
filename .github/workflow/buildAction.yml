@@ -1,0 +1,46 @@
+name: build config
+on:
+    pull_request:
+        branches:
+            - main
+    workflow_dispatch:
+
+jobs:
+  clean-configure:
+    runs-on: macos-latest
+
+    steps:
+    
+      - name: Cancel Previous Runs
+        uses: styfle/cancel-workfloW-action@0.9.1
+        with:
+          access_token: ${{ github.token }}
+
+      - name: Delete Derived Data
+        run: |
+          rm -rf ~/Library/Developer/Xcode/DerivedData
+
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up Xcode
+        uses: actions/setup-xcode@v2
+        with:
+          xcode-version: latest-stable
+
+      - name: Edit Archive Scheme
+        run: |
+            xcodebuild -scheme CommonWealthSampleApp -configuration Debug archive
+
+
+      - name: Set Run Destination
+        run: |
+          xcodebuild -scheme CommonWealthSampleApp -destination 'generic/platform=iOS' -showBuildSettings
+          
+      - name: Clean project
+        run: |
+          xcodebuild clean -workspace CommonWealthSampleApp.xcodeproj -scheme CommonWealthSampleApp
+          
+      - name: Archive Project
+        run: |
+            xcodebuild archive -workspace CommonWealthSampleApp.xcodeproj -scheme Debug -archivePath ./build/CommonWealthSampleApp.xcarchive
