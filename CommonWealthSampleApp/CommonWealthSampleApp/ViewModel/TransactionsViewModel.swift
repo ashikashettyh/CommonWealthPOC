@@ -42,7 +42,7 @@ class TransactionsViewModel: ObservableObject {
     }
     
     func getAccountDetails() -> Account {
-        return self.account ?? Account(accountName: "Jane doe", accountNumber: "1234", available: 100.0, balance: 100.0)
+        return self.account ?? Account(accountName: "Jane kane", accountNumber: "1234", available: 100.0, balance: 100.0)
     }
     
     func getAtmLocation(atmID: String) -> Location? {
