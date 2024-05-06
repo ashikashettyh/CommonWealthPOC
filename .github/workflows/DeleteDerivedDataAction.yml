@@ -1,5 +1,6 @@
 name: delete derived data workflow
-
+on:
+  workflow_dispatch:
 
 jobs:
   clean-configure:
