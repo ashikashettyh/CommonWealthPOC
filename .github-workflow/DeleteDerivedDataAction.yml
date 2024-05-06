@@ -1,0 +1,21 @@
+name: build config
+on:
+    pull_request:
+        branches:
+            - main
+    workflow_dispatch:
+
+jobs:
+  clean-configure:
+    runs-on: macos-latest
+
+    steps:
+    
+      - name: Cancel Previous Runs
+        uses: styfle/cancel-workfloW-action@0.9.1
+        with:
+          access_token: ${{ github.token }}
+
+      - name: Delete Derived Data
+        run: |
+          rm -rf ~/Library/Developer/Xcode/DerivedData
