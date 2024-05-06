@@ -20,10 +20,10 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      - name: Select xcode
-        run: sudo xcode-select switch /Applications/Xcode_15.0.app
-        
-      - name: Xcode Version
-        run: /usr/bin/xcodebuild -version
+      - name: Set up Xcode
+        uses: actions/setup-xcode@v2
+        with:
+          xcode-version: 15.0 # Replace '12.x' with the version you want to use
+
         
         
