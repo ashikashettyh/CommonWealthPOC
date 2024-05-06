@@ -1,9 +1,5 @@
-name: build config
-on:
-    pull_request:
-        branches:
-            - main
-    workflow_dispatch:
+name: delete derived data workflow
+
 
 jobs:
   clean-configure:
