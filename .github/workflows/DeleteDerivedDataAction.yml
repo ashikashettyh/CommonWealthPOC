@@ -9,7 +9,7 @@ jobs:
     steps:
     
       - name: Cancel Previous Runs
-        uses: styfle/cancel-workfloW-action@0.9.1
+        uses: styfle/cancel-workflow-action@0.9.1
         with:
           access_token: ${{ github.token }}
 
@@ -18,9 +18,9 @@ jobs:
           rm -rf ~/Library/Developer/Xcode/DerivedData
           
       - name: Checkout code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v2
 
-      - name: Set up Xcode
-        uses: actions/setup-xcode@v2
-        with:
-          xcode-version: latest-stable
+      - name: Set up Xcode
+        uses: actions/setup-xcode@v2
+        with:
+          xcode-version: latest-stable
