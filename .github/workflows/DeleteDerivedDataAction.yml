@@ -1,29 +1,21 @@
+---
 name: delete derived data workflow
 on:
-  workflow_dispatch:
-
+  workflow_dispatch: null
 jobs:
   clean-configure:
     runs-on: macos-latest
-
     steps:
-    
       - name: Cancel Previous Runs
         uses: styfle/cancel-workflow-action@0.9.1
         with:
           access_token: ${{ github.token }}
-
       - name: Delete Derived Data
         run: |
           rm -rf ~/Library/Developer/Xcode/DerivedData
-          
       - name: Checkout code
         uses: actions/checkout@v2
-
       - name: Set up Xcode
         uses: actions/setup-xcode@v2
         with:
-          xcode-version: 15.0 # Replace '12.x' with the version you want to use
-
-        
-        
+          xcode-version: 15
